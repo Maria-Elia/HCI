@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational AI Assistant</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="header">
+            Educational AI Assistant
+        </div>
+
+        <div class="chat" id="chat">
+            <div class="chat-inner">
+
+            </div>
+        </div>
+
+        <div class="input-wrapper">
+            <div class="input-box">
+                <input type="text" value="Explain how CRISPR gene editing works.">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const GOOGLE_FORM = "";
+
+        const explanation = `
+CRISPR is a gene-editing technology that allows scientists to modify DNA. It uses a molecule called guide RNA, which identifies a specific DNA sequence that scientists want to change.
+
+An enzyme called Cas9 follows the guide RNA to the target location and cuts the DNA. After the DNA is cut, the cell naturally repairs the break. Scientists can use this repair process to remove, replace, or insert genetic material.
+
+Because CRISPR can target specific genes with high precision, it has become an important tool in biological research and medicine.
+`;
+    </script>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational AI Assistant</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="header">
+            Educational AI Assistant
+        </div>
+
+        <div class="chat" id="chat">
+            <div class="chat-inner">
+
+            </div>
+        </div>
+
+        <div class="input-wrapper">
+            <div class="input-box">
+                <input type="text" value="Explain how CRISPR gene editing works.">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const GOOGLE_FORM = "";
+
+        const explanation = `
+CRISPR is a gene-editing technology that allows scientists to make precise changes to DNA. DNA contains the genetic instructions that determine how living organisms develop and function. Scientists use CRISPR to study genes, understand diseases, and explore potential medical treatments.
+
+The CRISPR system is based on a natural defense mechanism found in bacteria. Bacteria use CRISPR to recognize and defend themselves against viruses. Researchers adapted this mechanism into a powerful tool for gene editing.
+
+A key component of CRISPR is a molecule called guide RNA. The guide RNA is designed to match a specific DNA sequence within an organism's genome. It acts like a navigation system by directing the CRISPR machinery to the exact location that scientists want to modify.
+
+Another important component is an enzyme called Cas9. After the guide RNA identifies the target sequence, Cas9 moves to that location and cuts both strands of the DNA. This cut is the critical step that makes gene editing possible.
+
+Once the DNA has been cut, the cell activates its natural DNA repair mechanisms. Scientists can take advantage of this repair process to make specific genetic changes. For example, they may disable a gene, replace part of a gene, or insert new genetic material into the DNA sequence.
+
+One reason CRISPR has become so widely used is its precision. Earlier gene-editing methods were often slower, more expensive, and less accurate. CRISPR allows researchers to target specific DNA sequences more efficiently.
+
+Scientists are currently investigating many applications of CRISPR. Researchers are studying whether it can help treat genetic diseases by correcting harmful mutations. It is also used in biological research to better understand how genes influence traits and diseases.
+
+Although CRISPR offers significant opportunities, researchers continue to study its limitations and ethical implications. Nevertheless, the technology has become one of the most important tools in modern genetics because it enables precise modification of DNA through the combined action of guide RNA, Cas9, and the cell's natural DNA repair processes.
+`;
+    </script>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
